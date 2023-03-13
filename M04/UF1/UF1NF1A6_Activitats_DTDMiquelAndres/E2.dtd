@@ -1,0 +1,14 @@
+<!ELEMENT institut (alumnes,cursos, ufs)>
+<!ELEMENT alumnes (alumne*)>
+<!ELEMENT alumne (nom, cognom)>
+<!ATTLIST alumne DNI ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT cursos (curs*)>
+<!ELEMENT curs EMPTY>
+<!ATTLIST curs DNI IDREF #REQUIRED>
+<!ATTLIST curs codi IDREF #REQUIRED>
+<!ELEMENT ufs (uf*)>
+<!ELEMENT uf (nom,hores)>
+<!ATTLIST uf codi ID #REQUIRED>
+<!ELEMENT hores (#PCDATA)>

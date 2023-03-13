@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE productes [
+  <!ELEMENT productes (producte*)>
+  <!ELEMENT producte (codi, nom, nomP, tipus, seccio, stock)>
+  <!ELEMENT codi (#PCDATA)>
+  <!ELEMENT nom (#PCDATA)>
+  <!ELEMENT nomP (#PCDATA)>
+  <!ELEMENT tipus (aliment, fragilitat, frigorific)>
+  <!ELEMENT aliment (#PCDATA)>
+  <!ELEMENT fragilitat (#PCDATA)>
+  <!ELEMENT frigorific (#PCDATA)>
+  <!ELEMENT seccio (#PCDATA)>
+  <!ELEMENT stock (#PCDATA)>
+]>
+<productes>
+    <producte>
+      <codi>Ma1</codi>
+      <nom>Maduixes</nom>
+      <nomP>OpelCorsaMaduixes</nomP>
+      <tipus>
+        <aliment>Si</aliment>
+        <fragilitat>3</fragilitat>
+        <frigorific>No</frigorific>
+      </tipus>
+      <seccio>Fruites</seccio>
+      <stock>No es temporada</stock>
+    </producte>
+        <producte>
+      <codi>P2</codi>
+      <nom>Peres</nom>
+      <nomP>PeresPeralbes</nomP>
+      <tipus>
+        <aliment>Si</aliment>
+        <fragilitat>2</fragilitat>
+        <frigorific>No</frigorific>
+      </tipus>
+      <seccio>Fruites</seccio>
+      <stock>30</stock>
+    </producte>
+        <producte>
+      <codi>S1</codi>
+      <nom>Suc</nom>
+      <nomP>SucSl</nomP>
+      <tipus>
+        <aliment>no</aliment>
+        <fragilitat>1</fragilitat>
+        <frigorific>si</frigorific>
+      </tipus>
+      <seccio>altres</seccio>
+      <stock>20</stock>
+    </producte>
+</productes>

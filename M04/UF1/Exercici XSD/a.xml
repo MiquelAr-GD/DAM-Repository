@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<companyia-electrica   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="a.xsd">
+<soci>
+<nom>joan</nom>
+<cognoms><c>caspar</c><c>fos</c></cognoms>
+</soci>
+<soci>
+<nom>flor</nom>
+<cognoms><c>fdez</c><c>artal</c></cognoms>
+</soci>
+</companyia-electrica>

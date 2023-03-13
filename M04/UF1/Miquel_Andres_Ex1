@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <recetas>
+      <receta>
+        <titulo>cordero al horno</titulo>
+            <imagen>https://s1.dmcdn.net/v/Ih1QH1Sq3aWBJjKd6/x1080/imagCarn.gif</imagen>
+            <ingredientes>
+                <titulo_ingredientes>INGREDIENTES PARA 4 PERSONAS:</titulo_ingredientes>
+                <ingrediente cantidad="2" unidad="g">paletillas de cordero 500</ingrediente>
+                <ingrediente cantidad="3">patatas</ingrediente>
+                <ingrediente cantidad="1">cebolla</ingrediente>
+                <ingrediente cantidad="2" unidad="dientes">ajo</ingrediente>
+                <ingrediente >sal y pimienta</ingrediente>
+                <ingrediente>aceite de oliva</ingrediente>
+            </ingredientes>
+            <proceso>
+                <titulo_proceso>Proceso</titulo_proceso>
+                <pasos>
+                  <paso numero="1">Lo primero es poner....</paso>
+                  <paso numero="2">Mientras se hornea....</paso>
+                  <paso numero="3">Pelamos los dientes....</paso>
+                  <paso numero="4">Hacemos lo propio con....</paso>
+                  <paso numero="5" unidad="m">Pasados los 35....</paso>
+                </pasos>
+            </proceso>
+      </receta>  
+   </recetas>
+  </menu>

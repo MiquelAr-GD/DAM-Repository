@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="companyia-electrica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="soci" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nom" maxOccurs="unbounded"/>
+                <xs:element name="cognoms">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="c" type="xs:string" maxOccurs="4"/>
+                   </xs:sequence>
+                </xs:complexType>
+               </xs:element>
+               <xs:element name="diners" type="xs:decimal" maxOccurs="unbounded"/>
+            </xs:sequence>
+         </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

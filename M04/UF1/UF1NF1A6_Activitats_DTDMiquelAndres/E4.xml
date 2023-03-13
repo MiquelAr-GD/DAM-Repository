@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concessionari SYSTEM "E4.dtd">
+<concessionari>
+    <cotxe Codi="_1">
+      <marca>Opel</marca>
+      <model>Corsa</model>
+      <matricula>1W4SA</matricula>
+      <potencia unitat_mesura="caballs">150</potencia>
+      <places>4</places>
+      <nportes>4</nportes>
+    </cotxe>
+    <cotxe Codi="_2">
+      <marca>BMW</marca>
+      <model>Albaricoque</model>
+      <matricula>1W4S3A</matricula>
+      <potencia unitat_mesura="caballs">200</potencia>
+      <places>4</places>
+      <nportes>4</nportes>
+    </cotxe>
+    <cotxe Codi="_3">
+      <marca>Mustang</marca>
+      <model>69</model>
+      <matricula>H3L1F1RE</matricula>
+      <potencia unitat_mesura="caballs">800</potencia>
+      <places>4</places>
+      <nportes>2</nportes>
+    </cotxe>
+    <cotxe Codi="_4">
+      <marca>BMW</marca>
+      <model>A3</model>
+      <matricula>123SAD</matricula>
+      <potencia unitat_mesura="caballs">150</potencia>
+      <places>4</places>
+      <nportes>4</nportes>
+    </cotxe>
+</concessionari>

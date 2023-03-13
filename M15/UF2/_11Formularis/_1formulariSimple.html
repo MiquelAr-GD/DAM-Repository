@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Formulari HTML simple</title>
+</head>
+<body>
+	<!-- construim un formulari que passara al fitxer _1mostrarDades.php 
+	     les dades introduides per l'usuari en els diferents inputs 
+	     mitjançant la URL -->
+		<!--<form method="get" action="_1mostrarDades.php">-->
+
+	<!-- construim un formulari que passara al fitxer _1mostrarDades.php  
+	     les dades introduides per l'usuari en els diferents inputs 
+	     mitjançant el mètode HTTP POST -->
+		<form method="get" action="_1mostrarDades.php">
+		<p>
+			<!--Construim un input de tipus text per introduir un nom-->
+			<label for="nom">Nom:</label><br/>
+			<input type="text" id="nom" name="usuari">
+		</p>
+		<p>
+			<!--Construim un input de tipus textarea per introduir un missatge -->
+			<label for="missatge">Missatge:</label><br/>
+			<textarea id="missatge" name="missatge" rows="5" cols="40"></textarea>
+		</p>
+		<button type="submit" value="enviar">Enviar Dades</button>
+	</form>
+</body>
+</html>

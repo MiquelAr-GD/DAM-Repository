@@ -1,0 +1,10 @@
+<!ELEMENT escala (vei*)>
+<!ELEMENT vei (nom, cognoms, portal, pis, ccc, carrec)>
+<!ATTLIST vei Codi ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognoms (#PCDATA)>
+<!ELEMENT portal (#PCDATA)>
+<!ELEMENT pis (#PCDATA)>
+<!ATTLIST pis lletra CDATA #REQUIRED>
+<!ELEMENT ccc (#PCDATA)>
+<!ELEMENT carrec (#PCDATA)>

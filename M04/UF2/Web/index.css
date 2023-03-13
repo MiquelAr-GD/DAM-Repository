@@ -1,0 +1,63 @@
+#cap, #peu{ 
+border:1px solid black;
+ }
+#cap {
+height:100px;
+width:100%;
+background:#c0bcfb;
+font-family:Arial;
+}
+#menu {
+
+float:left; /* s'ajusta a l'esquerra de l'últim bloc */
+height:550px;
+width: 10%;
+background:#7f7ffb;
+font-family:Arial;
+     
+}
+#info {
+
+float:left;  /* s'ajusta a l'esquerra de l'últim bloc */
+height:100%;
+width: 90%;
+background:#99ccff;
+font-family:Arial;
+}
+#peu {
+
+clear:both; 
+height:50px;
+width:100%;
+background:#0033cc;
+color:white;
+font-family:Arial;
+}
+#titol{
+float:right;
+height:100px;
+width:50%;
+background:#c0bcfb;
+font-family:Arial;
+}
+<style>
+a:link {
+  color: black;
+  background-color: transparent;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+}
+</style>

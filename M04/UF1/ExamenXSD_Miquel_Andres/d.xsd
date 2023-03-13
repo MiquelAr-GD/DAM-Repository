@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:simpleType name="data">
+	<xs:restriction base="xs:string">
+      <xs:pattern value="[0-3][0-9][\-][0|1][0-9][\-][1|2][0|9][0-9][0-9]"/>
+	</xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="idioma">
+	<xs:restriction base="xs:string">
+      <xs:pattern value="anglès|català|castellà|francès|alemany|coreà|inglés|catalán|castellano|francés|alemán|coreano|english|catalan|spanish|french|german|korean"/>
+	</xs:restriction>
+</xs:simpleType>
+  <xs:element name="SitgesInternationalFilmFestival">
+    <xs:complexType>
+      <xs:sequence>
+                  <xs:element name="espais">
+                      <xs:complexType>
+                           <xs:sequence>
+                                  <xs:element name="cinema" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                      <xs:all>
+                                          <xs:element name="nom" type="xs:string"/>
+                                          <xs:element name="adreca">
+                                                <xs:complexType>
+                                                  <xs:sequence>
+                                                      <xs:element name="via" type="xs:string"/>
+                                                      <xs:element name="num" type="xs:string"/>
+                                                      <xs:element name="cp" >
+                                                          <xs:simpleType>
+                                                            <xs:restriction base="xs:integer">
+                                                              <xs:pattern value="08[0-9]{3}"/> 
+                                                            </xs:restriction>
+                                                          </xs:simpleType>
+                                                          </xs:element>
+                                                      <xs:element name="localitat" type="xs:string"/>
+                                                  </xs:sequence>
+                                                </xs:complexType>
+                                              </xs:element>
+                                      </xs:all>
+                                    </xs:complexType>
+                                  </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                 <xs:element name="seccions">
+                    <xs:complexType>
+                     <xs:sequence>
+                      <xs:element name="seccio" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="pelicules">
+                  <xs:complexType>
+                     <xs:sequence>
+                        <xs:element name="pelicula" maxOccurs="unbounded">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element name="titol" type="xs:string"/>
+                              <xs:element name="durada">
+                                   <xs:simpleType>
+                                       <xs:restriction base="xs:string">
+                                            <xs:pattern value="[0-9][0-9]?[0-9]?[\s][m][i][n][u][t][s]"/> 
+                                         </xs:restriction>
+                                     </xs:simpleType>
+                              </xs:element>
+                              <xs:element name="versions">
+                                <xs:complexType>
+                                  <xs:sequence>
+                                    <xs:element name="vo" type="idioma"/>
+                                    <xs:element name="v" type="idioma" minOccurs="0" maxOccurs="unbounded"/>
+                                  </xs:sequence>
+                                </xs:complexType>
+                              </xs:element>
+                              <xs:element name="pais" maxOccurs="unbounded">
+                                   <xs:simpleType>
+                                       <xs:restriction base="xs:string">
+                                            <xs:pattern value="[A-Z]([a-z]|[\s])*"/> 
+                                         </xs:restriction>
+                                     </xs:simpleType>
+                              </xs:element>
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+      </xs:sequence>
+        <xs:attribute name="dataInici" type="data"/>
+        <xs:attribute name="dataFi" type="data"/>
+        <xs:attribute name="idioma" type="idioma"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

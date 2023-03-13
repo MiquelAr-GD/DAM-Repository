@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "E1.dtd">
+<biblioteca>
+  <llibres>
+    <llibre>
+      <codi></codi>
+      <titol></titol>
+      <editorial></editorial>
+      <edicio></edicio>
+      <isbn></isbn>
+      <pag></pag>
+      <autor></autor>
+    </llibre>  
+  </llibres>
+</biblioteca>

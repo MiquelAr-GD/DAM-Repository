@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seleccionar Productes</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<body>
+	<form action="_2mostrarProductes.php" method="post">
+		<p>
+			<label for="nom">Nom:</label><br/>
+		    <input type="text" id="nom" name="usuari" />
+	    </p>
+
+		<fieldset>
+			<legend>Selecciona alguns dels productes:</legend><br/>
+			
+			<input type="checkbox" id="poma" name="productes[]" value="poma"/>			
+			<label for="poma">Poma</label><br/>
+			
+			<input type="checkbox" id="pera" name="productes[]" value="pera">			
+			<label for="pera">Pera</label><br/>
+			
+			<input type="checkbox" id="platan" name="productes[]" value="platan">
+			<label for="platan">Platan</label>
+		</fieldset>
+		
+		<button type="submit" name="enviar" value="enviar">Enviar productes</button>
+	</form>
+</body>
+</html>

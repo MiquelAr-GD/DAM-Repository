@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE escala SYSTEM "E3.dtd">
+<escala>
+  <vei Codi="_1">
+  <nom>Manel</nom>
+  <cognoms>Camps Ponts</cognoms>
+  <portal>522</portal> 
+  <pis lletra="A">5</pis>
+  <ccc>123456789h</ccc>
+  <carrec>Cap</carrec>
+  </vei>
+    <vei Codi="_2">
+  <nom>Ainhoa</nom>
+  <cognoms>Perez Gimenez</cognoms>
+  <portal>522</portal> 
+  <pis lletra="B">5</pis>
+  <ccc>123456789j</ccc>
+  <carrec>President</carrec>
+  </vei>
+    <vei Codi="_3">
+  <nom>David</nom>
+  <cognoms>Camps Ponts</cognoms>
+  <portal>522</portal> 
+  <pis lletra="A">4</pis>
+  <ccc>123456789A</ccc>
+  <carrec>Cap</carrec>
+  </vei>
+    <vei Codi="_4">
+  <nom>Berta</nom>
+  <cognoms>Morales Gomez</cognoms>
+  <portal>522</portal> 
+  <pis lletra="A">3</pis>
+  <ccc>1234512389</ccc>
+  <carrec>Vicepresident</carrec>
+  </vei>
+</escala>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE institut SYSTEM "E2.dtd">
+<institut>
+  <alumnes>
+    <alumne DNI="_44123456">
+      <nom>Dani</nom>
+      <cognom>Tosc</cognom>
+    </alumne>
+        <alumne DNI="_46654987">
+      <nom>Anna</nom>
+      <cognom>Mir</cognom>
+    </alumne>
+        <alumne DNI="_45789456">
+      <nom>Joel</nom>
+      <cognom>Pons</cognom>
+    </alumne>
+  </alumnes>
+  <cursos>
+    <curs DNI="_44123456" codi="_1"></curs>
+    <curs DNI="_44123456" codi="_2"></curs>
+    <curs DNI="_44123456" codi="_3"></curs>
+    <curs DNI="_46654987" codi="_3"></curs>
+    <curs DNI="_45789456" codi="_1"></curs>
+  </cursos>
+  <ufs>
+  <uf codi="_1">
+    <nom>M1</nom>
+    <hores>198</hores>
+  </uf>
+   <uf codi="_2">
+    <nom>M2</nom>
+    <hores>165</hores>
+  </uf>
+   <uf codi="_3">
+    <nom>M3</nom>
+    <hores>165</hores>
+  </uf>
+  </ufs>
+</institut>

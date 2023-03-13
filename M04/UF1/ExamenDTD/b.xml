@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TheBigBandTheory SYSTEM "b.dtd">
+<TheBigBandTheory>
+    <info-gral>
+          <genere>comèdia</genere>
+          <pais>USA</pais>
+          <director>Chuck Lorre</director>
+          <director>Bill Prady</director>
+          <canal>CBS</canal>
+          <numtemporades>11</numtemporades>
+          <format-imatge>480i</format-imatge>
+          <format-imatge>1080i</format-imatge>
+    </info-gral>
+    <personatges>
+          <personatge>
+              <nom>Dr. Leonard Hofstadter</nom>
+              <actor>Jhonny Galecki</actor>
+          </personatge>
+          <personatge>
+              <nom>Dr. Sheldon Cooper</nom>
+               <actor>Jim Parsons</actor>
+          </personatge> 
+          <personatge>
+              <nom>Penny </nom>
+               <actor>Kaley Cuoco</actor>
+          </personatge>
+          <personatge>
+              <nom>Howard Joel Wolowitz</nom>
+               <actor>Simon Helberg</actor>
+          </personatge> 
+          <personatge>
+              <nom>Dr. Rajesh Ramayan Koothrappali</nom>
+               <actor>Kunal Nayyar</actor>
+          </personatge> 
+    </personatges>
+    <temporades>
+          <temporada>
+              <data-inici>24/09/2007</data-inici>
+              <milions-espectadors>9.52</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>22/09/2008</data-inici>
+              <milions-espectadors>8.58</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>21/09/2009</data-inici>
+              <milions-espectadors>8.36</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>23/09/2010</data-inici>
+              <milions-espectadors>8.15</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>22/09/2011</data-inici>
+              <milions-espectadors>8.81</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>27/09/2012</data-inici>
+              <milions-espectadors>8.92</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>26/09/2013</data-inici>
+              <milions-espectadors>9.68</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>22/09/2014</data-inici>
+              <milions-espectadors>9.32</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>21/09/2015</data-inici>
+              <milions-espectadors>9.11</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>19/09/2016</data-inici>
+              <milions-espectadors>8.63</milions-espectadors>
+          </temporada>
+          <temporada>
+              <data-inici>25/09/2017</data-inici>
+              <milions-espectadors>8.68</milions-espectadors>
+          </temporada>
+    </temporades>
+</TheBigBandTheory>

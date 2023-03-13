@@ -1,0 +1,10 @@
+ <!ELEMENT biblioteca (llibres)>
+ <!ELEMENT llibres (llibre*)>
+ <!ELEMENT llibre (codi, titol, editorial, edicio, isbn, pag, autor)>
+ <!ELEMENT codi (#PCDATA)>
+ <!ELEMENT titol (#PCDATA)>
+ <!ELEMENT editorial (#PCDATA)>
+ <!ELEMENT edicio (#PCDATA)>
+ <!ELEMENT isbn (#PCDATA)>
+ <!ELEMENT pag (#PCDATA)>
+ <!ELEMENT autor (#PCDATA)>

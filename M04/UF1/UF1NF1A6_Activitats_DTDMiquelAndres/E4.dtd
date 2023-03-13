@@ -1,0 +1,10 @@
+<!ELEMENT concessionari (cotxe*)>
+<!ELEMENT cotxe (marca, model, matricula, potencia, places, nportes)>
+<!ATTLIST cotxe Codi ID #REQUIRED>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ATTLIST potencia unitat_mesura CDATA #REQUIRED>
+<!ELEMENT places (#PCDATA)>
+<!ELEMENT nportes (#PCDATA)>

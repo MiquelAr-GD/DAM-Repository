@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SitgesInternationalFilmFestival dataInici="07-10-2020" dataFi="17-10-2020" idioma="anglès" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="d.xsd">
+    <espais>
+        <cinema>
+            <nom>Auditori Hotel Melià Sitges</nom>
+            <adreca>
+                <via>Carrer de Joan Salvat-Papasseit</via>
+                <num>38</num>
+                <cp>08870</cp>
+                <localitat>Sitges</localitat>
+            </adreca>
+        </cinema>
+        <cinema>
+            <nom>Cine El Retiro</nom>
+            <adreca>
+                <via>C/ Àngel Vidal</via>
+                <num>17</num>
+                <cp>08870</cp>
+                <localitat>Sitges</localitat>
+            </adreca>
+        </cinema>
+        <cinema>
+            <nom>Cine Prado</nom>
+            <adreca>
+                <via>C/ Francesc Gumà</via>
+                <num>6</num>
+                <cp>08870</cp>
+                <localitat>Sitges</localitat>
+            </adreca>
+        </cinema>
+        <cinema>
+            <nom>Brigadoon - L'Escorxador</nom>
+            <adreca>
+                <via>Carrer de Joan Maragall</via>
+                <num>36</num>
+                <cp>08870</cp>
+                <localitat>Sitges</localitat>
+            </adreca>
+        </cinema>
+        <cinema>
+            <adreca>
+                <via>Carrer de Joan Salvat-Papasseit</via>
+                <num>38</num>
+                <cp>08870</cp>
+                <localitat>Sitges</localitat>
+            </adreca>
+            <nom>Tramuntana</nom>
+        </cinema>
+    </espais>
+    <seccions>
+        <seccio>Oficial Fantàstic a Competició</seccio>
+        <seccio>Oficial Fantàstic Discovery</seccio>
+        <seccio>Oficial Fantàstic fora de Competició</seccio>
+        <seccio>Panorama Fantàstic</seccio>
+        <seccio>Òrbita</seccio>
+        <seccio>Noves Visions</seccio>
+        <seccio>Anima't</seccio>
+        <seccio>Seven Chances</seccio>
+        <seccio>Midnight X-Treme</seccio>
+        <seccio>Brigadoon</seccio>
+        <seccio>Sitges Classics</seccio>
+        <seccio>Serial Sitges</seccio>
+        <seccio>Samsung Sitges Cocoon</seccio>
+    </seccions>
+    <pelicules>
+        <pelicula>
+            <titol>Possessor Uncut</titol>
+            <durada>103 minuts</durada>
+            <versions>
+                <vo>english</vo>
+                <v>català</v>
+                <v>castellano</v>
+            </versions>
+            <pais>Eua</pais>
+        </pelicula>
+        <pelicula>
+            <titol>La nuée</titol>
+            <durada>100 minuts</durada>
+            <versions>
+                <vo>french</vo>
+                <v>català</v>
+                <v>castellano</v>
+            </versions>
+            <pais>Franca</pais>
+        </pelicula>
+        <pelicula>
+            <titol>The dark and the wicked</titol>
+            <durada>94 minuts</durada>
+            <versions>
+                <vo>english</vo>
+                <v>castellano</v>
+            </versions>
+            <pais>Eua</pais>
+        </pelicula>
+        <pelicula>
+            <titol>Creep 2</titol>
+            <durada>80 minuts</durada>
+            <versions>
+                <vo>english</vo>
+                <v>català</v>
+                <v>castellano</v>
+            </versions>
+            <pais>Eua</pais>
+        </pelicula>
+        <pelicula>
+            <titol>Jailbreak</titol>
+            <durada>92 minuts</durada>
+            <versions>
+                <vo>korean</vo>
+                <v>català</v>
+                <v>castellano</v>
+                <v>english</v>
+            </versions>
+            <pais>South korea</pais>
+        </pelicula>
+        <pelicula>
+            <titol>Fiesta Nibiru</titol>
+            <durada>80 minuts</durada>
+            <versions>
+                <vo>castellano</vo>
+                <v>català</v>
+                <v>english</v>
+            </versions>
+            <pais>Uruguai</pais>
+            <pais>Argentina</pais>
+        </pelicula>
+        <pelicula>
+            <titol>Tehran Taboo</titol>
+            <durada>96 minuts</durada>
+            <versions>
+                <vo>alemany</vo>
+                <v>català</v>
+                <v>castellano</v>
+                <v>english</v>
+            </versions>
+            <pais>Alemanya</pais>
+            <pais>Austria</pais>
+        </pelicula>
+        <pelicula>
+            <titol>Poesía Sin Fin</titol>
+            <durada>128 minuts</durada>
+            <versions>
+                <vo>french</vo>
+                <v>english</v>
+            </versions>
+            <pais>Franca</pais>
+            <pais>Xile</pais>
+        </pelicula>
+        <pelicula>
+            <titol>Secret Santa</titol>
+            <durada>89 minuts</durada>
+            <versions>
+                <vo>english</vo>
+                <v>castellano</v>
+            </versions>
+            <pais>Eua</pais>
+        </pelicula>
+        <pelicula>
+            <titol>Sheborg</titol>
+            <durada>85 minuts</durada>
+            <versions>
+                <vo>english</vo>
+            </versions>
+            <pais>Australia</pais>
+        </pelicula>
+        <pelicula>
+            <titol>El Exorcista (Director's Cut)</titol>
+            <durada>132 minuts</durada>
+            <versions>
+                <vo>english</vo>
+                <v>castellano</v>
+            </versions>
+            <pais>Eua</pais>
+        </pelicula>
+        <pelicula>
+            <titol>La Zona T1 Ep1</titol>
+            <durada>50 minuts</durada>
+            <versions>
+                <vo>castellano</vo>
+            </versions>
+            <pais>Espanya</pais>
+        </pelicula>
+        <pelicula>
+            <titol>I Saw The Future</titol>
+            <durada>5 minuts</durada>
+            <versions>
+                <vo>french</vo>
+            </versions>
+            <pais>Franca</pais>
+        </pelicula>
+    </pelicules>
+</SitgesInternationalFilmFestival>

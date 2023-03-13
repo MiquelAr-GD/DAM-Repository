@@ -1,0 +1,11 @@
+<!ELEMENT zoo (animals)>
+<!ELEMENT animals (animal*)>
+<!ELEMENT animal (nomEspecie, cuidador)>
+<!ELEMENT nomEspecie (#PCDATA)>
+<!ELEMENT cuidador (nomCuidador, nomActivitat?, dataInici?)>
+<!ELEMENT nomCuidador (#PCDATA)>
+<!ELEMENT nomActivitat (#PCDATA)>
+<!ELEMENT dataInici (#PCDATA)>
+<!ATTLIST zoo titularidad ( public | privat ) "public">
+<!ATTLIST animal xipUnic ID #REQUIRED>
+<!ATTLIST animal mare IDREF #IMPLIED>

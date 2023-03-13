@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<companyia-electrica   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="companyaelectrica.xsd">
+<soci moneda="Francs luxemburguesos”">
+<nom>johan</nom>
+<id>asertsxd</id>
+<cognoms><c>caspar</c><c>fos</c></cognoms>
+<diners>10.2</diners>
+</soci>
+<soci moneda="Francs suïssos">
+<nom>flora</nom>
+<id>asertsxd</id>
+<cognoms><c>fdez</c><c>artal</c></cognoms>
+<diners>11.2</diners>
+</soci>
+</companyia-electrica>

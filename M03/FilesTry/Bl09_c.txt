@@ -1,0 +1,8 @@
+ Mia:Mia:20: 1000
+ Mie:Mie:21: 1100
+ Mio:Mio:22: 1200
+ Miu:Miu:23: 1300
+ Mii:Mii:24: 1400
+ Quel:Quel:25: 1500
+ Qual:Qual:26: 1600
+ Quol:Quol:27: 1700
